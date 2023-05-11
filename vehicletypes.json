@@ -2023,5 +2023,208 @@
         "prerequisites": {
             "thw": 1
         }
-    }
+    },
+    {
+        "id": 103,
+	"name": "Funkstreifenwagen (Dienstgruppenleiter)",
+	"short_name": "FuStW (DGL)",
+	"class": ["police_service_group_leader", "police_cars"],
+	"class_alias": ["Dienstgruppenleiter", "Polizeistreifen"],
+	"cost": 25000,
+	"personal": {
+	        "min": 1,
+		"max": 2
+	},
+	"building": [6],
+	"additional": {
+		"prisoners_transport": 1,
+		"qualification": ["Dienstgruppenleitung"]
+	},
+	"prerequisites": {
+		"police_stations": 1
+	}
+     },
+     {
+	"id": 104,
+	"name": "Gerätewagen Logistik 1",
+	"short_name": "GW-L1",
+	"class": [],
+	"class_alias": [],
+	"cost": 8000,
+	"personal": {
+		"min": 1,
+		"max": 6
+	},
+	"building": [0, 18],
+	"additional": {
+		"capacity": 20
+	},
+	"prerequisites": {
+		"fire_stations": 1
+	}
+      },
+      {
+	"id": 105,
+	"name": "Gerätewagen Logistik 2",
+	"short_name": "GW-L2",
+	"class": [],
+	"class_alias": [],
+	"cost": 12000,
+	"personal": {
+		"min": 1,
+		"max": 6
+	},
+	"building": [0, 18],
+	"additional": {
+		"capacity": 30
+	},
+	"prerequisites": {
+		"fire_stations": 1
+	}
+      },
+      {
+	"id": 106,
+	"name": "Mannschaftstransportfahrzeug mit Ladefläche",
+	"short_name": "MTF-L",
+	"class": [],
+	"class_alias": [],
+	"cost": 4000,
+	"personal": {
+		"min": 1,
+		"max": 6
+	},
+	"building": [0, 18],
+	"additional": {
+		"capacity": 10
+	},
+	"prerequisites": {
+		"fire_stations": 1
+	}
+      },
+      {
+	"id": 107,
+	"name": "Löschfahrzeug Logistik",
+	"short_name": "LF-L",
+	"class": [],
+	"class_alias": [],
+	"cost": 9000,
+	"personal": {
+		"min": 1,
+		"max": 9
+        },
+	"building": [0, 18],
+	"additional": {
+		"capacity": 10,
+		"water": 2000,
+		"pump_engine": 2000
+	},
+	"prerequisites": {
+		"fire_stations": 1
+	}
+      },
+      {
+	"id": 108,
+	"name": "Abrollbehälter Logistik",
+	"short_name": "AB-L",
+	"class": [],
+	"class_alias": [],
+	"cost": 7000,
+	"personal": {
+		"min": 0,
+		"max": 0
+	},
+	"building": [0, 18],
+	"additional": {
+		"capacity": 30,
+		"trailer": true
+	},
+	"prerequisites": {
+		"fire_stations": 1
+	}
+      },
+      {
+	"id": 109,
+	"name": "Mehrzweckgerätewagen Schwere Bergung",
+	"short_name": "MzGW SB",
+	"class": ["thw_mzkw"],
+        "class_alias": ["MzGW SB"],
+	"cost": 15000,
+	"personal": {
+		"min": 1,
+		"max": 9
+	},
+	"building": [9],
+	"additional": {},
+	"prerequisites": {
+		"thw": 1
+	}
+      },
+      {
+	"id": 110,
+	"name": "Netzersatzanlage 50 kVA",
+	"short_name": "NEA50-THW",
+	"class": ["thw_mzkw"],
+	"class_alias": ["NEA50-THW"],
+	"cost": 10000,
+	"personal": {
+		"min": 0,
+		"max": 0
+	},
+	"building": [9],
+	"additional": {},
+	"prerequisites": {
+		"thw": 1
+	}
+      },
+      {
+	"id": 111,
+	"name": "Netzersatzanlage 50 kVA",
+	"short_name": "NEA50-FW",
+	"class": ["thw_mzkw"],
+	"class_alias": ["NEA50-FW"],
+	"cost": 10000,
+	"personal": {
+		"min": 0,
+		"max": 0
+	},
+	"building": [9],
+	"additional": {},
+	"prerequisites": {
+		"thw": 1
+	}
+      },
+      {
+	"id": 112,
+	"name": "Netzersatzanlage 200 kVA",
+	"short_name": "NEA200-THW",
+	"class": ["thw_mzkw"],
+	"class_alias": ["NEA200-THW"],
+	"cost": 10000,
+	"personal": {
+		"min": 0,
+		"max": 0
+	},
+	"building": [9],
+	"additional": {},
+	"prerequisites": {
+		"thw": 1
+	}
+      },
+      {
+	"id": 113,
+	"name": "Netzersatzanlage 200 kVA",
+	"short_name": "NEA200-FW",
+	"class": ["thw_mzkw"],
+	"class_alias": ["NEA200-FW"],
+	"cost": 10000,
+	"personal": {
+		"min": 0,
+		"max": 0
+	},
+	"building": [9],
+	"additional": {},
+	"prerequisites": {
+		"thw": 1
+	}
+      }
 ]
